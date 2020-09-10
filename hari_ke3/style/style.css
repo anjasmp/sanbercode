@@ -1,0 +1,58 @@
+                                       body {
+                                           font-family: montserrat;
+                                       }
+                                       
+                                       .form-inline {
+                                           padding-top: 30px;
+                                           padding-right: 10px;
+                                       }
+                                       
+                                       #navUtama {
+                                           border-radius: 30px;
+                                           background-color: #003366 !important;
+                                       }
+                                       
+                                       .carousel-caption {
+                                           text-shadow: 1px 2px 10px black;
+                                       }
+                                       
+                                       .form-inline input {
+                                           border-radius: 15px;
+                                           border-color: #003366;
+                                       }
+                                       
+                                       .form-inline input::placeholder {
+                                           color: #003366;
+                                       }
+                                       
+                                       i.cart {
+                                           background-color: green;
+                                           padding: 20px;
+                                       }
+                                       
+                                       .btn-group {
+                                           color: grey;
+                                       }
+                                       
+                                       .dropdown-menu {
+                                           color: #003366 !important;
+                                       }
+                                       
+                                       .garis {
+                                           color: grey;
+                                       }
+                                       
+                                       .nav-item {
+                                           text-transform: uppercase;
+                                           text-align: center;
+                                       }
+                                       
+                                       .nav-link:hover::after {
+                                           content: '';
+                                           display: block;
+                                           border-bottom: 3px solid #ffffff;
+                                           width: 50%;
+                                           margin: auto;
+                                           padding-bottom: 5px;
+                                           margin-bottom: -8px;
+                                       }
